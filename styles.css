@@ -1,0 +1,35 @@
+:root {
+    --branco-principal: #837676;
+    --cinza-secundario: #240505;
+    --botao-azul: #2877d8;
+    --cor-de-fundo: #260379;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url("img/Background.png");
+}
+.container {
+    height: 100vh;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
